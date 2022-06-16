@@ -1,1 +1,1 @@
-# FirstChallenge
+# This program is about a marketing agency website that has been improved to follow accessibility standards and optimized for search engines.
