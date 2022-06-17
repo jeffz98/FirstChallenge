@@ -1,21 +1,29 @@
+/* all elements will have padding and border included in width and height */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* sets background-color of body */
 body {
     background-color: #d9dcd6;
 }
 
+
 header {
+    /* adds white space around header */
     padding: 20px;
+    /* sets font family */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* sets background-color */
     background-color: #2a607c;
     color: #ffffff;
 }
 
+
 header h1 {
+    /* makes header words appear adjacent to each other */
     display: inline-block;
     font-size: 48px;
 }
@@ -24,28 +32,38 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
+
 header div {
+    /* adds white space above */
     padding-top: 15px;
+    /* adds a set amount of space in between next element */
     margin-right: 20px;
+    /* puts boxes to the right side */
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
 
+
 header div ul {
+    /* no bulletpoint style for lists */
     list-style-type: none;
 }
 
+
 header div ul li {
+    /* elements can have a width and height on the element with top and bottom margins  */
     display: inline-block;
     margin-left: 25px;
 }
 
 a {
     color: #ffffff;
+    /* sets text with the solid color */
     text-decoration: none;
 }
 
+/* sets font-size */
 p {
     font-size: 16px;
 }
@@ -53,32 +71,46 @@ p {
 .hero {
     height: 800px;
     width: 100%;
+    /* sets a 25px distance from next element below */
     margin-bottom: 25px;
+    /* adds photo */
     background-image: url("../images/digital-marketing-meeting.jpg");
+    /* image will maintain aspect ratio */
     background-size: cover;
     background-position: center;
 }
 
 .float-left {
+    /* makes text box oriented to the left */
     float: left;
+    /* sets distance to the right side from next object*/
     margin-right: 25px;
 }
 
+
 .float-right {
+    /* makes text box oriented to the right */
     float: right;
+    /* sets distance to the left side from next object*/
     margin-left: 25px;
 }
 
 .content {
     width: 75%;
+    /* sets width to 75% of border area */
     display: inline-block;
+    /* sets distance to the left side from next object*/
     margin-left: 20px;
 }
 
 .benefits {
+    /* sets distance to the right side from next object*/
     margin-right: 20px;
+    /* creates white space all around*/
     padding: 20px;
+    /* The element pushed between left and right elements*/
     clear: both;
+    /* orients box to the right side */
     float: right;
     width: 20%;
     height: 100%;
@@ -87,22 +119,27 @@ p {
 }
 
 .benefit-lead {
+    /* sets a border of space below */
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 .benefit-brand {
+    /* sets a border of space below */
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 .benefit-cost {
+    /* sets a border of space below */
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 .benefit-lead h3 {
+    /* sets a border of space below */
     margin-bottom: 10px;
+    /* aligns text in the middle */
     text-align: center;
 }
 
